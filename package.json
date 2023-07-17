@@ -1,0 +1,24 @@
+{
+  "name": "notepad-bot",
+  "version": "0.1.0",
+  "description": "The notepad telegram-bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Matvei Seliverstov <matvansel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "balaboba-api": "^1.0.0",
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.3.1",
+    "googleapis": "^122.0.0",
+    "random-useragent": "^0.5.0",
+    "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
